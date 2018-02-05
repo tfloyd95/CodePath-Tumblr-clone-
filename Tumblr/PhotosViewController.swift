@@ -7,13 +7,15 @@
 //
 
 import UIKit
+import AlamofireImage
 
-class PhotosViewController: UIViewController {
+class PhotosViewController: UIViewController,  UITableViewDelegate, UITableViewDataSource
+{
+    override func viewDidLoad()
 
-    override func viewDidLoad() {
+    {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {
