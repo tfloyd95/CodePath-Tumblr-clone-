@@ -6,5 +6,5 @@ target 'Tumblr' do
   use_frameworks!
 
   # Pods for Tumblr
-pod 'AlamofireImage', '~> 3.3'  
+ 	pod 'AlamofireImage', '~> 3.3' 		
 end
